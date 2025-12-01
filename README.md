@@ -71,24 +71,6 @@ Main functions:
 * Identify the closest vectors (most semantically relevant documents)
 * Select the correct answer(s) based on similarity ranking and content analysis
 
-This process enables semantic-based question answering rather than simple keyword matching.
 
----
 
-## 5. Applications
 
-This project has strong practical applications in:
-
-* Document digitization and automation
-* Educational systems (automatic multiple-choice question answering)
-* Business report processing
-* Knowledge management and intelligent search
-* Handling semi-structured and unstructured PDF data
-
----
-
-## 6. Conclusion
-
-By combining PDF extraction techniques with the power of PhoBERT and a vector-based semantic matching approach, this project provides an efficient and intelligent solution for querying complex data stored in PDF tables.
-
-The separation of tasks into two dedicated modules — `nv1.ipynb` for document encoding and `nv2.ipynb` for question encoding and matching — improves modularity, scalability, and overall system clarity. This architecture demonstrates how modern NLP models can be effectively applied to real-world document understanding and question-answering problems.
